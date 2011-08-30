@@ -16,5 +16,10 @@ class String
       gsub(/[^a-z0-9]+/i, '-').
       gsub(/(^[-]+|[-]+$)/, '')
   end
+
+  def to_bool
+    return true if match('true')
+    return false
+  end
 end
 
