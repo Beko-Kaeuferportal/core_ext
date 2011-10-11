@@ -3,6 +3,8 @@ module Enumerable
     sum / size
   end
 
+  # returns a new hash/array
+  # keeps object references in tact
   # symbolize a hash recursivly
   # if we encounter an array, we will also call symbolize for every hash or array found
   def symbolize_keys_rec
