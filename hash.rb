@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 class Hash
   def has_nested_key?(key)
     return true if has_key?(key)

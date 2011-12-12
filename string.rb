@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 class String
   # Truncates the string after the first +chars+ (100) at word boundary and
   # adds +ending+ ("...").

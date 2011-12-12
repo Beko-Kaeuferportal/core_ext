@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 class HashWithIndifferentAccess
   def self.deep_transform hash
     a = HashWithIndifferentAccess.new(hash)
